@@ -1,4 +1,4 @@
-const firstArg = 5;
+const firstArg = process.argv[2];
 const number = Number(firstArg);
 
 if (Number.isInteger(number)) {
